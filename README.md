@@ -40,7 +40,9 @@ This repository includes a script to analyze monthly sales trends based on e-com
    ```bash
    python sales_trends_analysis.py
    ```
-3. The script will generate `sales_trends.csv` in the root directory.
+3. The output will include:
+   - A CSV file (`sales_trends.csv`) with monthly sales data.
+   - A PNG image (`sales_trends_plot.png`) of the graph.
 
 ### Example Output
 

@@ -52,3 +52,13 @@ YearMonth,Sales
 ---
 2023-12,338601.0
 ```
+
+### Observations
+
+The following graph illustrates the monthly sales trends from January 2020 to December 2023.
+
+![Monthly Sales Trends](sales_trends_plot.png)
+
+1. **Seasonal Peaks:** Sales consistently peak in November and December, aligning with holiday shopping seasons like Black Friday and Christmas.
+2. **Growth Trend:** There is a steady increase in overall sales over the years, with 2023 having the highest sales figures.
+3. **Off-Season Dips:** Sales are typically lower in January and February, likely due to post-holiday slowdowns.

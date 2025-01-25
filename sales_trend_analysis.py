@@ -10,7 +10,7 @@ merged_df['Order.Date'] = pd.to_datetime(merged_df['Order.Date'])
 merged_df['YearMonth'] = merged_df['Order.Date'].dt.to_period('M')
 sales_trends = merged_df.groupby('YearMonth')['Sales'].sum().reset_index()
 
-#sales_trends.to_csv('sales_trends.csv', index=False)
+sales_trends.to_csv('sales_trends.csv', index=False)
 print(f"Sales Trends: {sales_trends.head()}")
 
 sales_trends['YearMonth'] = sales_trends['YearMonth'].dt.to_timestamp()

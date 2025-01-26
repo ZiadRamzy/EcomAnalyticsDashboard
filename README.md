@@ -96,3 +96,13 @@ python profitability_analysis.py
 - **Technology** comes second ($239,528.96), likely due to high-value items (e.g., laptops, smartphones). However, its lower rank compared to Office Supplies could imply narrower margins or higher costs.
 
 - **Furniture** has a significantly lower profit ($41,720.21). This might be due to higher shipping costs, bulkier items, or lower demand.
+
+2. **Profitable Regions:**
+   - Saved as `profitable_regions_chart.png`.
+   - Highlights the top 10 most profitable regions.
+
+![Profitable Regions](profitable_regions_chart.png)
+
+- **United States** ($150,725.36), **China** ($123,995.01), and **India** ($84,221.24) are the top regions.
+
+- **Negative profits** in countries like **Vietnam** ($-842.06) and **Pakistan** (-$1,139.99) highlight regions that are underperforming, where profitability could be improved.

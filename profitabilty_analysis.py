@@ -28,3 +28,16 @@ plt.ylabel("Category", fontsize=12)
 plt.tight_layout()
 plt.savefig('profitable_categories_chart.png')
 plt.show()
+
+#vertical bar chart for the top 10 profitable regions
+top_regions = profitable_regions.sort_values(by="Profit", ascending=False).head(10)
+
+plt.figure(figsize=(12, 6))
+sns.barplot(data=top_regions, x="Country", y="Profit", palette="coolwarm")
+plt.title("Top 10 Profitable Regions", fontsize=16)
+plt.xlabel("Country", fontsize=12)
+plt.ylabel("Profit ($)", fontsize=12)
+plt.xticks(rotation=45, ha="right")
+plt.tight_layout()
+plt.savefig('profitable_regions_chart.png')
+plt.show()

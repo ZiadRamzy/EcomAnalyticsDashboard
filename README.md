@@ -179,3 +179,45 @@ This analysis focuses on understanding customer behavior, identifying high-value
    - Different cities favor specific product categories, indicating potential for targeted marketing and distribution strategies.
 4. **Growth Potential in Smaller Cities:**
    - Cities like **Beijing**, **Shanghai**, or **Gennvilliers** have lower total sales compared to top performers. These could represent markets with room for growth.
+
+## Dashboard
+
+This repository contains an interactive **Streamlit** dashboard that visualizes and analyzes e-commerce sales data. The dashboard helps derive actionable insights for optimizing sales strategies, identifying high-value customers, and analyzing shipping modes and regional trends.
+
+---
+
+### Features
+
+- **Filters**: Interactive filters for date range and countries.
+- **Visualizations**:
+  - **Sales & Profit by Country**: Top-performing countries by sales and profits.
+  - **Product Demand**: Analyze the most popular products by cities.
+  - **High-Value Customers**: Identify repeat and high-value customers.
+  - **Shipping Analysis**: Compare average shipping costs and profitability by mode.
+- **Download Filtered Data**: Export the filtered dataset as a CSV file.
+
+---
+
+### Running Locally
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/ZiadRamzy/EcomAnalyticsDashboard.git
+
+   cd EcomAnalyticsDashboard/
+   ```
+
+2. **Install dependencies:**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Run the dashboard:**
+
+   ```bash
+   streamlit run dashboard.py
+   ```
+
+4. **Open the app in your browser (default: `http://localhost:8501`).**

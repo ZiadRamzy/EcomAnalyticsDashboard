@@ -152,3 +152,30 @@ This analysis focuses on understanding customer behavior, identifying high-value
 
 - Many customers with high order counts (e.g., 30–40) have moderate profits, represented by the denser cluster in the middle.
 - Larger bubbles (representing high sales) are spread unevenly across the profit spectrum, meaning that not all high sales translate to high profitability.
+
+## Country Specific Metrics:
+
+### Top 10 Countries by Sales and Profit:
+
+![Top 10 Countries by Sales and Profit](Graphs/country_metrics_visualization.png)
+
+1. The **United States** and **China** are the top-performing countries in terms of total sales. This indicates that they are primary markets driving sales.
+2. The profits are proportionally small compared to the total sales across countries, reasons might be for example high operational costs or small margins.
+3. Countries like **India**, **Mexico**, and **France** hold a significant share in sales compared to others but still lag behind the top two. They could represent growing markets.
+4. While the **U.S**. and **China** are leading, boosting profitability in other regions (e.g., Europe or South America) may provide balanced revenue distribution.
+
+### Top 10 Cities by Product Demand with Products:
+
+![Top 10 Cities by Product Demand with Products](Graphs/product_demand_by_city_and_product.png)
+
+1. **City-Level Demand:**
+   - **Los Angeles** has the highest total sales by a significant margin, suggesting it is a key city driving product demand. It outpaces other cities by a wide margin, potentially due to its economic scale or purchasing power.
+2. **Product-Specific Demand:**
+   - **High-demand products include:**
+     - **Cisco TelePresence System EX90** in Los Angeles.
+     - Products like **Canon Advanced Copier** and **3D Printers** dominate other cities' demands, reflecting diverse needs across locations.
+   - Tech and office-related products appear to dominate sales in major cities, which may reflect the industries or consumer base there.
+3. **Opportunities for Tailored Marketing:**
+   - Different cities favor specific product categories, indicating potential for targeted marketing and distribution strategies.
+4. **Growth Potential in Smaller Cities:**
+   - Cities like **Beijing**, **Shanghai**, or **Gennvilliers** have lower total sales compared to top performers. These could represent markets with room for growth.
